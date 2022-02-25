@@ -12,12 +12,12 @@ variable "availability-zone2" {
 variable "instance_accesskey" {
   description = "Value of the Name tag for the EC2 instance"
   type        = string
-  default     = "AKIA5MDMMSR7FSWUVN5F"
+  default     = ""
 }
 variable "instance_secretkey" {
   description = "Value of the Name tag for the EC2 instance"
   type        = string
-  default     = "kHDCZIqKM2hEJheD0j4P/xYPpqEYC8990/M5AWJV"
+  default     = ""
 }
 variable "sg_ingress_rules" {
   description = "Ingress security group rules"
